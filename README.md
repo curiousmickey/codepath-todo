@@ -32,7 +32,7 @@ Notes:
  1) Used Singleton (SQLite: single db instance) and Data Access Object design patterns<br>
  2) Used Enterprise application folder structure<br>
  3) Heavily documented and logged(using android.util.Log)<br>
- 4) SQLite vs File: In AndroidManifest.xml please use below activities for SQLite vs File persistence        <br>
+ 4) SQLite vs File: In AndroidManifest.xml please use below activities for SQLite vs File persistence        <br><br>
 	SQLite: <br>
 		Main activity name: .activity.TodoUsingSQLiteActivity<br>
 		database name: items.db	<br>	
