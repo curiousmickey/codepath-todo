@@ -26,6 +26,7 @@ Notes:
  1) Though I have 11 years of experience in IT industry, mainly in back-end development, brand new to android development.
  2) With pure passion to get short-listed and learn from expert instructors, researched and developed this app.
  3) Tried my best to devote time for this, though busy with my 5 months baby and office work.
+ 4) I came to know through a friend about this bootcamp only couple of weeks ago. If I had known it bit earlier and have more     free time.. would have completed other suggested improvements as well
  
  Technical:
  1) Used Singleton (SQLite: single db instance) and Data Access Object design patterns
