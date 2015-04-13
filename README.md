@@ -40,6 +40,7 @@ Notes:
 		file name: todo.txt
 
 Walkthrough of all user stories:
+<br>
 <b>1) using SQLite persistence</b>
 <p><a href="sqlite-persistence.gif" target="_blank"><img src="sqlite-persistence.gif" alt="SQLite persistence demo Video Walkthrough" style="max-width:100%;"></a></p>
 
