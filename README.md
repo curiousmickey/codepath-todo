@@ -35,10 +35,10 @@ Notes:
  4) SQLite vs File: In AndroidManifest.xml please use below activities for SQLite vs File persistence        <br>
 	SQLite: <br>
 		Main activity name: .activity.TodoUsingSQLiteActivity<br>
-		database name: items.db		
-        File: 
-		Main activity name: activity.TodoUsingSQLiteActivity
-		file name: todo.txt
+		database name: items.db	<br>	
+        File: <br>
+		Main activity name: activity.TodoUsingSQLiteActivity<br>
+		file name: todo.txt<br>
 
 Walkthrough of all user stories:
 <br>
