@@ -74,6 +74,7 @@ public class TodoActivity extends ActionBarActivity {
         //Audio plays at app launch.. enjoy the crowd cheer..!! :)
         MediaPlayer crowdCheer = MediaPlayer.create(this, R.raw.crowd_cheer);
         crowdCheer.start();
+
     }
 
     /**

@@ -12,7 +12,7 @@
         <!-- To use SQLite database based persistence use .activity.TodoUsingSQLiteActivity-->
 
         <activity
-            android:name=".activity.TodoActivity"
+            android:name=".activity.TodoUsingSQLiteActivity"
             android:label="@string/code_path_app_name"
             android:icon="@drawable/android_robot">
             <intent-filter>
