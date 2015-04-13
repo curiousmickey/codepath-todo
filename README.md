@@ -8,9 +8,9 @@ Time spent: 50 hours spent in total
 
 Completed user stories:
 
- 1) Required: User can view a list of Todo items
+ 1) Required: User can view a list of Todo items <br>
  2) Required: User can add an item
- 3) Required: User can edit an item by clicking it. Edited item on edit screen can be updated
+ 3) Required: User can edit an item by clicking it. Edited item on edit screen can be updated <br>
  4) Required: User can remove an item by long clicking it. 
  
  5) Optional: Developed the app in two versions using File persistence and SQLite database persistence
