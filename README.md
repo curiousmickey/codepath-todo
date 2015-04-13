@@ -40,3 +40,4 @@ Notes:
 			file name: todo.txt
 
 Walkthrough of all user stories:
+<p><a href="temp.gif" target="_blank"><img src="temp.gif" alt="Video Walkthrough" style="max-width:100%;"></a></p>
