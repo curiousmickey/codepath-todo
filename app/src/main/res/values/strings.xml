@@ -1,0 +1,15 @@
+<resources>
+    <string name="todo_item_screen_label">CodePath Todo App(Using File)</string>
+    <string name="todo_item_using_sqlite_screen_label">CodePath Todo App(Using SQLite)</string>
+    <string name="code_path_app_name">CodePath Todo App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_item_hint">Add a new item</string>
+    <string name="Add_button_label">Add</string>
+    <string name="title_activity_edit_item">EditItemActivity</string>
+    <string name="edit_form_save_label">Save</string>
+    <string name="launch_button_label">Launch Edit Activity</string>
+    <string name="app_logo_desc">Todo Application</string>
+    <string name="edit_item_screen_label">Edit Your Item</string>
+    <string name="img_star_content_desc">star image</string>
+</resources>

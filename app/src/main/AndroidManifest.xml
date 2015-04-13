@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nkollip.todoapp" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/code_path_app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- To use File based persistence use .activity.TodoActivity-->
+        <!-- To use SQLite database based persistence use .activity.TodoUsingSQLiteActivity-->
+
+        <activity
+            android:name=".activity.TodoActivity"
+            android:label="@string/code_path_app_name"
+            android:icon="@drawable/android_robot">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.EditItemActivity"
+            android:label="@string/edit_item_screen_label"
+            android:icon="@drawable/android_robot">
+        </activity>
+    </application>
+
+</manifest>
