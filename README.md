@@ -1,9 +1,9 @@
 # codepath-todo by naveenkollipara (naveengrad@gmail.com ~ Sr eCommerce Developer at Macys Inc ~ 949-573-6567)
 My first android app developed for CodePath assignment
 
-This is an Android demo application for adding, deleting, updating and displaying Todo items. 
+This is a demo application for adding, deleting, updating and displaying Todo items using SQLite and File persistence
 minSDKVersion: API 16
-
+Demo GIFs are included for both SQLite and File persistence
 Time spent: 50 hours spent in total
 
 Completed user stories:
@@ -13,7 +13,7 @@ Completed user stories:
  3) Required: User can edit an item by clicking it. Edited item on edit screen can be updated
  4) Required: User can remove an item by long clicking it. 
  
- 5) Optional: Developed the app in two versions using File based persistence and SQLite database based persistence
+ 5) Optional: Developed the app in two versions using File persistence and SQLite database persistence
  6) Optional: Used custom adapters for displaying list items (star image is shown along with each list item)
  7) Optional: CodePath image is used on Main Todo screen
  8) Optional: Validations if user tries to add empty item or update an item with empty value
@@ -30,14 +30,19 @@ Notes:
  Technical:
  1) Used Singleton (SQLite: single db instance) and Data Access Object design patterns
  2) Used Enterprise application folder structure
- 3) Heavily document and logged(using android.util.Log)
+ 3) Heavily documented and logged(using android.util.Log)
  4) SQLite vs File: In AndroidManifest.xml please use below activities for SQLite vs File persistence        
-		SQLite: 
-			Main activity name: .activity.TodoUsingSQLiteActivity
-			database name: items.db			
+	SQLite: 
+		Main activity name: .activity.TodoUsingSQLiteActivity
+		database name: items.db			
         File: 
-			Main activity name: activity.TodoUsingSQLiteActivity
-			file name: todo.txt
+		Main activity name: activity.TodoUsingSQLiteActivity
+		file name: todo.txt
 
 Walkthrough of all user stories:
-<p><a href="temp.gif" target="_blank"><img src="temp.gif" alt="Video Walkthrough" style="max-width:100%;"></a></p>
+<b>1) using SQLite persistence</b>
+<p><a href="sqlite-persistence.gif" target="_blank"><img src="sqlite-persistence.gif" alt="SQLite persistence demo Video Walkthrough" style="max-width:100%;"></a></p>
+
+
+<b>2) using File persistence</b>
+<p><a href="file-persistence.gif" target="_blank"><img src="file-persistence.gif" alt="File persistence demo Video Walkthrough" style="max-width:100%;"></a></p>
