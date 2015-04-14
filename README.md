@@ -1,5 +1,6 @@
 # codepath-todo by naveenkollipara (naveengrad@gmail.com ~ Sr eCommerce Developer at Macys Inc ~ 949-573-6567)
-My first android app developed for CodePath assignment
+V1.0 --My first android app developed for CodePath assignment
+V1.1 --added DialogFragment usage on 4/13/2015
 
 This is a demo application for adding, deleting, updating and displaying Todo items using SQLite and File persistence
 minSDKVersion: API 16
@@ -19,6 +20,7 @@ Completed user stories:
  8) Optional: Validations if user tries to add empty item or update an item with empty value <br>
  9) Optional: For user notifications used Alert Dialog (Edit item screen) and several Toast messages (Main screen) <br>
  10) Optional: At the time of app launch, 'crowd cheer' audio (Media Player) plays - Enjoy the applause..!! :) <br>
+ 11) Optional: Implemented plain vanilla DialogFragment functionality for editing item <br>
  
  
 Notes:
@@ -39,12 +41,18 @@ Notes:
         File: <br>
 		Main activity name: activity.TodoUsingSQLiteActivity<br>
 		file name: todo.txt<br>
+	SQLite and DialogFragment: <br>
+		Main activity name: .activity.TodoUsingDialogctivity<br>
+		database name: items.db	<br>
 
 Walkthrough of all user stories:
 <br>
-<b>1) using SQLite persistence</b>
+<b>1) using SQLite persistence and DialogFragment (added in V1.1 on 4/13/2015)</b>
+<p><a href="dialog-fragment" target="_blank"><img src="dialog-fragment" alt="SQLite persistence & DialogFragment demo Video Walkthrough" style="max-width:100%;"></a></p>
+<br>
+<b>2) using SQLite persistence</b>
 <p><a href="sqlite-persistence.gif" target="_blank"><img src="sqlite-persistence.gif" alt="SQLite persistence demo Video Walkthrough" style="max-width:100%;"></a></p>
 
 
-<b>2) using File persistence</b>
+<b>3) using File persistence</b>
 <p><a href="file-persistence.gif" target="_blank"><img src="file-persistence.gif" alt="File persistence demo Video Walkthrough" style="max-width:100%;"></a></p>
