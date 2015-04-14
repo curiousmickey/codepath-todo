@@ -48,7 +48,7 @@ Notes:
 Walkthrough of all user stories:
 <br>
 <b>1) using SQLite persistence and DialogFragment (added in V1.1 on 4/13/2015)</b>
-<p><a href="dialog-fragment" target="_blank"><img src="dialog-fragment" alt="SQLite persistence & DialogFragment demo Video Walkthrough" style="max-width:100%;"></a></p>
+<p><a href="dialog-fragment.gif" target="_blank"><img src="dialog-fragment.gif" alt="SQLite persistence & DialogFragment demo Video Walkthrough" style="max-width:100%;"></a></p>
 <br>
 <b>2) using SQLite persistence</b>
 <p><a href="sqlite-persistence.gif" target="_blank"><img src="sqlite-persistence.gif" alt="SQLite persistence demo Video Walkthrough" style="max-width:100%;"></a></p>
