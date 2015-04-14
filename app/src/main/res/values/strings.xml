@@ -12,4 +12,6 @@
     <string name="app_logo_desc">Todo Application</string>
     <string name="edit_item_screen_label">Edit Your Item</string>
     <string name="img_star_content_desc">star image</string>
+    <string name="title_activity_fragment_dialog_demo">FragmentDialogDemo</string>
+    <string name="title_activity_todo_using_dialog">TodoUsingDialog</string>
 </resources>

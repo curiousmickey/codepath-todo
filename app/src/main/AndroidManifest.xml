@@ -8,23 +8,36 @@
         android:label="@string/code_path_app_name"
         android:theme="@style/AppTheme" >
 
-        <!-- To use File based persistence use .activity.TodoActivity-->
-        <!-- To use SQLite database based persistence use .activity.TodoUsingSQLiteActivity-->
+        <!-- To use SQLite database with DialogFragment implementation for edit item functionality, use .activity.TodoUsingDialog -->
+        <!-- To use File based persistence use .activity.TodoActivity -->
+        <!-- To use SQLite database based persistence use .activity.TodoUsingSQLiteActivity -->
 
-        <activity
+
+        <!--
+            <activity
             android:name=".activity.TodoUsingSQLiteActivity"
-            android:label="@string/code_path_app_name"
-            android:icon="@drawable/android_robot">
+            android:icon="@drawable/android_robot"
+            android:label="@string/code_path_app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        -->
         <activity
             android:name=".activity.EditItemActivity"
-            android:label="@string/edit_item_screen_label"
-            android:icon="@drawable/android_robot">
+            android:icon="@drawable/android_robot"
+            android:label="@string/edit_item_screen_label" >
+        </activity>
+        <activity
+            android:name=".activity.TodoUsingDialog"
+            android:label="@string/title_activity_todo_using_dialog" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 
